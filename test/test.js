@@ -1,18 +1,12 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-var setReminder = function(date, cb) {
-	setTimeout(cb, 100);
-};
-
-var date = new Date();
+var functions = require('../index.js');
+var setReminder = functions.setReminder;
 
 describe('setReminder()', function() {
 	it('executes a callback', function(done) {
-		setReminder(date, function() {
-			done();
-			expect(date).to.eql(date);
-		});
+		var date = new Date()
+		setReminder(date, done); 
 	});
-	
 });
