@@ -1,0 +1,26 @@
+{
+  "name": "reminder",
+  "version": "0.1.0",
+  "description": "Challenge using setTimeout",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sbaverett/reminder.git"
+  },
+  "author": "Sam Averett and Carlo De Gregorio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbaverett/reminder/issues"
+  },
+  "homepage": "https://github.com/sbaverett/reminder",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  }
+}
