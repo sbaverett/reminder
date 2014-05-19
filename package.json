@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/sbaverett/reminder/issues"
   },
-  "homepage": "https://github.com/sbaverett/reminder"
+  "homepage": "https://github.com/sbaverett/reminder",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  }
 }
